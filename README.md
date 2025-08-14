@@ -38,8 +38,8 @@ FastSet Wallet BOT
 
 - **accounts.txt:** You will find the file `accounts.txt` inside the project directory. Make sure `accounts.txt` contains data that matches the format expected by the script. Here are examples of file formats:
   ```bash
-    your_private_key_1
-    your_private_key_2
+    your_private_key_1 (without 0x)
+    your_private_key_2 (without 0x)
   ```
 
 - **proxy.txt:** You will find the file `proxy.txt` inside the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:

@@ -181,7 +181,6 @@ class FastSet:
         return [ord(x) >> 5 for x in hrp] + [0] + [ord(x) & 31 for x in hrp]
 
     def create_checksum(self, hrp, data):
-        
         values = self.hrp_expand(hrp) + data
         polymod_result = self.polymod(values + [0, 0, 0, 0, 0, 0]) ^ 0x2bc830a3
         return [(polymod_result >> 5 * (5 - i)) & 31 for i in range(6)]

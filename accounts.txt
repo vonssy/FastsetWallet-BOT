@@ -1,2 +1,2 @@
-your_private_key_1
-your_private_key_2
+your_private_key_1 (without 0x)
+your_private_key_2 (without 0x)
